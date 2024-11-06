@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+    <h3>{{ error }}</h3>
+    <form method="post">
+        {% csrf_token %}
+       <p><label for="username">Введите логин:</label>
+        <input type="text" id="username" name="username" maxlength="30" required></p>
+
+       <p><label for="password">Введите пароль:</label>
+        <input type="text" id="password" name="password" minlength="8" required></p>
+         <button type="submit">Зарегистрироваться</button>
+        </form>
+{% endblock %}
