@@ -20,7 +20,7 @@ django-admin startproject diplom
 ```
 Переходим в директиву проекта
 ```
-cd diplom:
+cd diplom
 ```
 Запуск сервера осуществляется по команде:
 ```
