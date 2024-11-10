@@ -57,6 +57,7 @@ urlpatterns = [
     path('category/<int:cat_id>/', show_category, name='category'),
 ]
 ```
+
 ##Зачем вы разработали этот проект?
 Для защиты дипломной работы
 
